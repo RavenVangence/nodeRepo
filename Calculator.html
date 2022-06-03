@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span class="calculator">
+        <div class="input-class">
+            <label for="input-1">num1</label>
+            <input type="text" id="input-1">
+        </div>
+        
+        <div>
+            <button id="arithmetic-value-add" class="arithmetic-btns">+</button>
+        </div>
+        <div>
+            <button id="arithmetic-value-subtract" class="arithmetic-btns">-</button>
+        </div>
+        <div>
+            <button id="arithmetic-value-multiply" class="arithmetic-btns">*</button>
+        </div>
+        <div>
+            <button id="arithmetic-value-divide" class="arithmetic-btns">/</button>
+        </div>
+        <div>
+            <button id="arithmetic-value-modulo" class="arithmetic-btns">%</button>
+        </div>
+
+        <div class="input-class">
+            <label for="input-2">num2</label>
+            <input type="text" id="input-2">
+        </div>
+    </span>
+    <div>
+        <button id="equal-to">=</button>
+    </div>
+    <div>
+        <h4>Result : </h4>
+    </div>
+    <div>
+        <p id="result-text"></p>
+    </div>
+    <h2 id="arithmetic-catcher">
+
+    </h2>
+
+    <script src="/calculator-js.js"></script>
+</body>
+</html>

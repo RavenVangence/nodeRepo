@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#input-1 {
+    padding: 10px;
+    width: 100px;
+}
+#arithmetic-value-add {
+    width: 40px;
+    height: 40px;
+}
+#arithmetic-value-subtract {
+    width: 40px;
+    height: 40px;
+}
+#arithmetic-value-multiply {
+    width: 40px;
+    height: 40px;
+}
+#arithmetic-value-divide {
+    width: 40px;
+    height: 40px;
+}
+#arithmetic-value-modulo {
+    width: 40px;
+    height: 40px;
+}
+#input-2 {
+    padding: 10px;
+    width: 100px;
+
+}
+
+.calculator {
+    position: relative;
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: row;
+}
+.arithmetic-btns {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    margin-top: 60px;
+}
+.input-class {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+.input-class::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+#equal-to {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 45vw;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+}
+#result-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 70px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(38, 181, 38);
+    font-size: 2rem;
+}
+h4 {
+    position: absolute;
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 40vw;
+}
+#arithmetic-catcher {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -83px;
+    margin-left: 47.5vw;
+
+}
