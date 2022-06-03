@@ -34,4 +34,4 @@ carArray.push(carTwo);
 carArray.push(carThree);
 
 let adminCar = new AdminCar('Judge', 'Macron', 2016);
-adminCar.giveRating('Valhala', 5);
+adminCar.giveRating('Himla', 5);
